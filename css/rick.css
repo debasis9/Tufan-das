@@ -1,0 +1,257 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: #00adb7;
+}
+.wrap{
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.clearfix{
+  clear: both;
+  content: "";
+  display: table;
+}
+.main-header{
+  width: 100%;
+
+}
+
+.left{
+  float: left;
+  padding-top: 13px;
+  padding-bottom: 10px;
+
+}
+.right{
+  float:right;
+}
+.right ul li{
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 17px;
+  font-family: Montserrat;
+}
+.right a{
+  text-decoration: none;
+  color: #000;
+}
+
+
+.right a:hover{
+  color: #ffffff;
+  text-shadow: 0 0 0.8em #ffffff,0 0 0.6em #e4e3e3;
+
+}
+
+.baner{
+  position: relative;
+}
+.banner img{
+  width: 100%;
+  height: 500px;
+}
+.banner-content{
+  position: absolute;
+  top: 29%;
+  left: 31%;
+
+  font-size: 33px;
+  font-family: Montserrat;
+  color: #fff;
+  text-shadow: 3px 3px #e78f0e;
+}
+.row{
+  width: 100%;
+}
+.warp1{
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+.column{
+  width: 23%;
+  float: left;
+  text-align: center;
+  background-color: #00adb7;
+  margin: 11px;
+}
+.column img{
+  height: 55px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.image-border{
+  border-top: 5px solid #fff;
+}
+.column h2{
+  position: relative;
+  font-size: 25px;
+  font-family: 'Merriweather';
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.column p{
+  font-size: 18px;
+  line-height: 25px;
+  padding: 15px;
+  font-weight: 400;
+}
+.card-section{margin-top: 50px;}
+.treandig{
+  margin-top: 85px;
+  margin-bottom: 85px;
+}
+.treandig-content{
+  padding-top: 85px;
+  padding-bottom: 85px;
+  text-align: center;
+}
+.treandig-content h1{
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: 'Merriweather';
+  font-weight: 500;
+}
+.treandig-content p{
+  font-size: 20px;
+  color: #777;
+  line-height: 30px;
+  font-family: sans-serif;
+}
+.treanding-img{
+  width: 23%;
+  float: left;
+  margin: 11px;
+
+}
+.treanding-img img{
+  height: 310px;
+  width: 314px;
+  border-radius: 15px;
+}
+.treanding-img h2{
+  font-size: 27px;
+  font-family: 'Merriweather';
+  font-weight: 400;
+}
+.treanding-img p{
+  color:#3a6216;
+  font-size: 18px;
+  font-family: serif;
+  line-height: 25px;
+}
+.recent-img{
+  width: 31%;
+  float: left;
+  margin: 11px;
+}
+.recent-img img{
+  height: 310px;
+  width: 418px;
+  border-radius: 15px;
+}
+.recent-img h2{
+  font-size: 27px;
+  font-family: 'Merriweather';
+  font-weight: 400;
+}
+.recent-img p{
+  color: #777;
+  font-size: 18px;
+  font-family: serif;
+  line-height: 25px;
+}
+.company-content{
+  width: 48%;
+  float: left;
+  margin: 11px;
+}
+.company-content p{
+  font-size: 20px;
+  color: #777;
+  line-height: 30px;
+  font-family: sans-serif;
+}
+.map{
+  margin-top: 75px;
+}
+.properties{
+  background-color: #A8C09D;
+}
+.footer{
+  background-color: #000;
+  margin-top: 85px;
+}
+.our-content{
+  width: 23%;
+  float: left;
+  margin: 11px;
+}
+.our-content h3{
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Merriweather';
+  font-weight: 400;
+  padding-top: 45px;
+}
+.our-content ul{
+  position: relative;
+  list-style: none;
+  padding-left: 0;
+}
+.our-content ul li{
+  color: #fff;
+  font-size: 20px;
+  line-height: 45px;
+}
+.logo-warp{
+  position: relative;
+  padding-left: 0;
+  list-style: none;
+}
+.logo-warp li{
+  display: inline-block;
+}
+.logo-warp img{
+  float: left;
+  height: 30px;
+  margin-top: 20px;
+}
+.right-content{
+  padding-left: 50px;
+}
+.testbutton{
+  font-family: "roboto",sans-serif;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  background: #1E90FF;
+  width: 160px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  -webkit-transition-duration:0.3s;
+  transition-duration:0.3s;
+  -webkit-transition-property:box-shadow,transform;
+  transition-property:box-shadow,transform;
+
+}
+.testbutton:hover, .testbutton:focus, .testbutton:active{
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  -webkit-transform:scale(1.1);
+  transform: scale(1.1);
+}
